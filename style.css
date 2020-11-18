@@ -1,0 +1,33 @@
+td {
+    padding: 0 10px;
+
+}
+
+tfoot td {
+    text-align: center;
+    font-weight: bold;
+}
+
+.table, th, td {
+    border: 1px solid black;
+    color: red;
+}
+
+.bodyStyle {
+    border: 2px solid black;
+    background-color: lightblue;
+    color: black;
+    padding: 3px 2px;
+    opacity: 1;
+    margin: 5px 200px;
+    overflow: scroll;
+}
+
+tr.odd {
+    background-color: lightgrey;
+}
+
+/* This would be the way to go without PHP */
+tbody tr:nth-child(odd) {
+    /*background-color: lightgrey;*/
+}
